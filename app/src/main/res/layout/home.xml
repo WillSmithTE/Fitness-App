@@ -9,6 +9,13 @@
     tools:context="grp2.fitness.HomeActivity"
     android:background="#ffffff">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="kanj likes traps" />
+
     <android.support.design.widget.NavigationView
         android:id="@+id/navMenu"
         android:layout_width="wrap_content"
@@ -20,10 +27,5 @@
         android:layout_gravity="start">
     </android.support.design.widget.NavigationView>
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="kanj likes traps" />
+
 </android.support.v4.widget.DrawerLayout>
